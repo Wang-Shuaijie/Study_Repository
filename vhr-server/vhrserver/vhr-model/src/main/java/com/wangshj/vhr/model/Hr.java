@@ -100,7 +100,7 @@ public class Hr implements UserDetails {
     public void setEnabled(Boolean enabled) {
         this.enabled = enabled;
     }
-
+    
     public String getUsername() {
         return username;
     }
