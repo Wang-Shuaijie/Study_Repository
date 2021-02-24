@@ -38,9 +38,9 @@ public class POIUtils {
         //文档标题
         summInfo.setTitle("员工信息表");
         //文档作者
-        summInfo.setAuthor("javaboy");
+        summInfo.setAuthor("wangshj");
         // 文档备注
-        summInfo.setComments("本文档由 javaboy 提供");
+        summInfo.setComments("本文档由 wangshj 提供");
         //5. 创建样式
         //创建标题行的样式
         HSSFCellStyle headerStyle = workbook.createCellStyle();
@@ -217,7 +217,7 @@ public class POIUtils {
      * @return
      */
     public static List<Employee> excel2Employee(MultipartFile file, List<Nation> allNations, List<Politicsstatus> allPoliticsstatus, List<Department> allDepartments, List<Position> allPositions, List<JobLevel> allJobLevels) {
-        List<Employee> list = new ArrayList<>();
+        List<Employee> list = new ArrayList<Employee>();
         Employee employee = null;
         try {
             //1. 创建一个 workbook 对象
